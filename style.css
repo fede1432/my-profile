@@ -1,0 +1,75 @@
+/*Colors and fonts */
+body {
+	background-color: #EAECF0;
+	color: #1b1a1a;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	color: green;
+	font-weight: 100;
+	letter-spacing: 10px;
+	font-size:36 px;
+	font-weight: 900;
+	font-family: 'Unna', serif;
+}
+
+h2 {
+	color: #000000; 
+	font-size: 30px;
+	font-weight: normal;
+	font-family: 'Bebas Neue', cursive;
+	font-style: normal;
+}
+
+h3 {
+	color: #000000; 
+	font-size: 30px;
+	font-weight: normal;
+	font-family: 'Bebas Neue', cursive;
+	font-style: normal;
+}
+
+a {
+    text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+
+a:hover {
+	color: yellow;
+}
+
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+    }
+}
+
+.elementoConOmbra {
+	background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 700px;
+    margin: 10px auto;
+    text-align: center
+}
+.daSeparare {
+	text-align: center;
+    margin: inherit;
+}
+
+
+
